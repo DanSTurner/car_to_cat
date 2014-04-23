@@ -51,7 +51,7 @@ describe "CarToCat::Base" do
 
     it "should output a catified file" do
       subject.convert(@input_file, @output_file)
-      @output_file.string.should eq(%{
+      @output_file.should eq(%{
         In 2006, John Lasseter spoke about how they worked hard to make the \n
         animation believable, saying: \"It took many months of trial and \n
         error, and practicing test animation, to figure out how each cat \n

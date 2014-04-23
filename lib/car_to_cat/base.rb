@@ -7,7 +7,9 @@ module CarToCat
     end
 
     def self.convert(input_file, output_file)
-      output_file.write(catify(input_file.string))
+      file = File.open(input_file, 'r')
+      contents = file.read
+      output_file.write(catify(contents))
     end
   end
 end
