@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TBD
+car_to_cat inputfilename outputfilename
 
 ## Contributing
 
